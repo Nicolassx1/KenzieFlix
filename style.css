@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600 semi bold;
+    line-height: 40px;
+}
+
+header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.username {
+    color: #9c9c9c;
+}
+
+.text-center {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 600 semi bold;
+    line-height: 41px;
+}
+
+.box-users {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    list-style: none;
+    gap: 26px;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+}
+
+ul img {
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+ul:hover {
+    overflow: hidden;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.button-settings {
+    background: #000000;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+    width: 140px;
+    height: 35px;
+    font-family: IBM Plex Sans;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+}
+
+li:hover img {
+    cursor: pointer;
+    border: 2px solid white;
+    color: #ffffff;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.username:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.button-settings:hover {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
